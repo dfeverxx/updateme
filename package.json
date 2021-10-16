@@ -1,0 +1,29 @@
+{
+  "name": "updateme",
+  "productName": "updateme",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build  --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "keywords": [],
+  "author": {
+    "name": "dfeverx",
+    "email": "dfeverx@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "electron-updater": "^4.3.9"
+  },
+  "devDependencies": {
+    "electron": "15.2.0",
+    "electron-builder": "^22.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfeverxx/updateme.git"
+  }
+}
